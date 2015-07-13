@@ -51,6 +51,7 @@ public class ImageWrapper extends JFrame implements Runnable {
 	}
 
 	public static void main(String[] args) {
+		System.out.println("In Main : : : : : 2:");
 		ImageWrapper m = new ImageWrapper();
 		m.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 	}
